@@ -1,1 +1,1 @@
-Web development course
+Web development course by Dr. Angela Yu
