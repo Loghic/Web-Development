@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+#egg{
+    width: 50%;
+    margin-left: 25%;
+}
+
+h1{
+    width: 50%;
+    margin-left: 25%;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+}
+
+p{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: white;
+}
+
+img{
+    width: 100%;
+    border: 5px solid white;
+}
+
