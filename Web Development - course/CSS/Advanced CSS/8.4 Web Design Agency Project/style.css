@@ -19,3 +19,65 @@ footer {
   color: midnightblue;
 }
 
+span{
+  color:midnightblue;
+}
+
+@media (max-width: 480px){
+  .tile-image{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  .card{
+    width: 100%;
+    display: block;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  
+}
+
+@media (min-width: 481px) and (max-width: 1200px){
+  .tile-image{
+    float:left;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+  }
+  .card{
+    display: block;
+    text-align: left;
+    float: left;
+  }
+  
+
+
+}
+
+@media (min-width: 1201px){
+  .tile-image{
+    float: left;
+    height: 200px;
+    margin-right: 50px;
+  }
+  .card{
+    width: 45%;
+  }
+
+  .right{
+    float:right;
+  }
+
+  .left{
+    float: left;
+  }
+
+}
+
