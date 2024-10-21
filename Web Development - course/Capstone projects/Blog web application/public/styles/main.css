@@ -1,0 +1,136 @@
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+}
+
+.myForm {
+    width: 30%;
+    text-align: center;
+    border: solid lightseagreen 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.submitBtns {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+#submitBtn, .btnDelete button{
+    width: 150px; 
+    height: 50px; 
+    font-size: 14px; 
+    border: 2px solid black; 
+    border-radius: 5px;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+
+#submitBtn {
+    background-color: rgb(63, 233, 94); 
+}
+
+#submitBtn:hover{
+    background-color: darkgreen; 
+    color: white;
+}
+
+.btnDelete button{
+    background-color: lightcoral; 
+}
+
+.btnDelete button:hover {
+    background-color: darkred; 
+    color: white; 
+}
+
+input, textarea{
+    border: solid lightgray 1px;
+    min-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    padding: none;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+.postTable {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    width: 100%;
+    grid-template-columns: repeat(2, 30%); 
+    gap: 10px; 
+}
+
+.onePost {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: beige;
+    border: solid black 1px;
+    padding: 10px;
+    min-height: 150px; 
+    align-items: stretch;
+}
+
+.onePost div[id^="displayMode"] h3 {
+    margin-top: 0;
+    gap: 0;
+    padding-top: 0;
+    width: 100%;
+    font-size: xx-large;
+    text-align: center; 
+    align-self: center; 
+}
+
+.onePost div[id^="displayMode"] p {
+    width: 100%;
+    margin-bottom: 10px; 
+    margin-top: 0;
+    text-align: left;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+
+.updtActionBtns {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+    margin-top: auto;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
