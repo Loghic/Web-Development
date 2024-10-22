@@ -1,9 +1,14 @@
 h1 {
     font-size: 3.5rem;
+    color: #295F98;
 }
 
 h2 {
     font-size: 2rem;
+}
+
+body {
+    background-color: #E1D7C6;
 }
 
 main {
@@ -19,10 +24,15 @@ main {
     text-align: center;
 }
 
+.myForm, .onePost {
+    background-color: #295F98;
+    color: #EAE4DD;
+}
+
 .myForm {
     width: 30%;
     text-align: center;
-    border: solid lightseagreen 2px;
+    border: solid black 2px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -85,14 +95,14 @@ textarea {
     align-content: start;
     width: 100%;
     grid-template-columns: repeat(2, 30%); 
-    gap: 10px; 
+    gap: 10px;
+    margin-bottom: 40px; 
 }
 
 .onePost {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: beige;
     border: solid black 1px;
     padding: 10px;
     min-height: 150px; 
@@ -107,6 +117,7 @@ textarea {
     font-size: xx-large;
     text-align: center; 
     align-self: center; 
+    color: #CDC2A5;
 }
 
 .onePost div[id^="displayMode"] p {
